@@ -27,9 +27,16 @@ app.get('/api/health', (req, res) => {
 
 // MongoDB Connection
 const MONGODB_URI = process.env.MONGODB_URI || 'mongodb://localhost:27017/crowd_management';
-mongoose.connect(MONGODB_URI)
+mongoose.connect(MONGODB_URI, { useNewUrlParser: true, useUnifiedTopology: true })
   .then(() => {
     console.log('✅ MongoDB Connected');
+
+    // Start server only after DB is ready
+    server.listen(PORT, () => {
+      console.log(`🚀 Server running on port ${PORT}`);
+      console.log(`📡 Socket.IO server active`);
+      startRealTimeUpdates();
+    });
   })
   .catch(err => {
     console.error('❌ MongoDB Connection Error:', err.message);
@@ -38,6 +45,7 @@ mongoose.connect(MONGODB_URI)
     console.error('   Option 2: Use MongoDB Atlas (cloud): https://cloud.mongodb.com');
     console.error('   Option 3: Run with Docker: docker run -d -p 27017:27017 mongo\n');
   });
+
 
 // Handle MongoDB connection issues
 mongoose.connection.on('error', (err) => {
@@ -281,12 +289,5 @@ app.get('/health', (req, res) => {
 
 // Start server
 const PORT = process.env.PORT || 5000;
-server.listen(PORT, () => {
-  console.log(`🚀 Server running on port ${PORT}`);
-  console.log(`📡 Socket.IO server active`);
-  
-  // Start real-time updates
-  startRealTimeUpdates();
-});
 
 module.exports = { app, server };
