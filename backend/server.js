@@ -21,6 +21,10 @@ const io = new Server(server, {
 app.use(cors({ origin: process.env.FRONTEND_ORIGIN || '*' }));
 app.use(express.json());
 
+app.get('/api/health', (req, res) => {
+  res.status(200).send('✅ Server is healthy');
+});
+
 // MongoDB Connection
 const MONGODB_URI = process.env.MONGODB_URI || 'mongodb://localhost:27017/crowd_management';
 mongoose.connect(MONGODB_URI)
