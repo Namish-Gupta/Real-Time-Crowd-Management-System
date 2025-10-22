@@ -18,7 +18,7 @@ const io = new Server(server, {
   }
 });
 
-
+const allowedOrigin = process.env.FRONTEND_ORIGIN?.replace(/\/$/, ''); // remove trailing slash
 // Middleware
 app.use(cors({
   origin: process.env.FRONTEND_ORIGIN,
