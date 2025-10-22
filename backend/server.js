@@ -18,14 +18,6 @@ const io = new Server(server, {
 });
 
 // Middleware
-app.use(cors(// server.js (example)
-const express = require('express');
-const app = express();
-const server = require('http').createServer(app);
-const io = require('socket.io')(server, {
-  cors: { origin: process.env.FRONTEND_ORIGIN || '*' }
-});
-const cors = require('cors');
 app.use(cors({ origin: process.env.FRONTEND_ORIGIN || '*' }));
 app.use(express.json());
 
