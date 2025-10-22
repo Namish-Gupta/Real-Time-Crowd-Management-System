@@ -12,13 +12,19 @@ const app = express();
 const server = http.createServer(app);
 const io = new Server(server, {
   cors: {
-    origin: process.env.FRONTEND_ORIGIN || "http://localhost:3000",
-    methods: ["GET", "POST"]
+    origin: process.env.FRONTEND_ORIGIN,
+    methods: ['GET', 'POST'],
+    credentials: true
   }
 });
 
+
 // Middleware
-app.use(cors({ origin: process.env.FRONTEND_ORIGIN || '*' }));
+app.use(cors({
+  origin: process.env.FRONTEND_ORIGIN,
+  methods: ['GET', 'POST'],
+  credentials: true
+}));
 app.use(express.json());
 
 app.get('/api/health', (req, res) => {
