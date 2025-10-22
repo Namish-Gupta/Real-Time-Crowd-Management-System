@@ -367,7 +367,13 @@ Contributions are welcome! Please follow these steps:
 
 ## 👥 Authors
 
-- **Nithish Kannan M** - *Initial work* - [GitHub Profile](https://github.com/NithishKannanM)
+- **Nithish Kannan M** – *Initial work* – [GitHub Profile](https://github.com/NithishKannanM)  
+  📧 Email: nithishkannanm1@example.com
+
+- **Namish Gupta** – *Development, Deployment & Integration* – [GitHub Profile](https://github.com/Namish-Gupta)  
+  📧 Email: namishdev.gupta@gmail.com
+
+
 
 ## 🙏 Acknowledgments
 
@@ -385,14 +391,13 @@ Contributions are welcome! Please follow these steps:
 4. [React Performance Optimization](https://react.dev/learn)
 5. [Recharts Documentation](https://recharts.org/)
 
+
 ## 📞 Support
 
 For issues or questions:
-- 📧 Email: nithishkannanm1@example.com
-- 🐛 Issues: [GitHub Issues](https://github.com/NithishKannanM/Real-Time-Crowd-Management-System/issues)
-- 💬 Discussions: [GitHub Discussions](https://github.com/NithishKannanM/Real-Time-Crowd-Management-System/discussions)
+- 🐛 Issues: [Namish's GitHub Issues](https://github.com/Namish-Gupta/Real-Time-Crowd-Management-System/issues)
+- 💬 Discussions: [Namish's GitHub Discussions](https://github.com/Namish-Gupta/Real-Time-Crowd-Management-System/discussions)
 
----
 
 **Made with ❤️ for Computer Networks Project**
 
