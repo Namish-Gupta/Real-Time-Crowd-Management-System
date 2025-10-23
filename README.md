@@ -354,6 +354,43 @@ npm install
 - [ ] Export reports (PDF/Excel)
 - [ ] Admin panel for zone management
 
+🚀 **Project Deployment & Contributions**
+
+### 🌍 Live Deployments
+- **Backend (Node.js + Express + MongoDB Atlas):**  
+  [real-time-crowd-management-system.onrender.com](https://real-time-crowd-management-system.onrender.com)
+
+- **Frontend (React - Create React App):**  
+  [real-time-crowd-management-system-cnproject-1h1zuoha9.vercel.app](https://real-time-crowd-management-system-cnproject-1h1zuoha9.vercel.app)
+
+---
+
+### 🗄️ Database Integration (MongoDB Atlas)
+- Configured and connected the backend to **MongoDB Atlas**, ensuring secure, cloud-hosted data storage and real-time accessibility.  
+- Implemented schema design using **Mongoose**, optimizing performance for crowd and zone data.  
+- Secured connection credentials using environment variables (`.env`) and `process.env.MONGO_URI`.  
+- Verified Atlas integration through end-to-end testing of live API endpoints after deployment.  
+- Established scalable data architecture for future analytics and predictive modules.
+
+
+### 🧑‍💻 My Technical Contributions
+- **Backend Deployment:** Deployed the Node.js + Express server on **Render**, integrating it with MongoDB Atlas for persistent storage.  
+- **Frontend Deployment:** Built and deployed the **React (CRA)** frontend on **Vercel**, ensuring full API integration and production readiness.  
+- **API Integration:** Connected frontend components to backend endpoints for live data visualization and monitoring.  
+- **Environment Management:** Configured `.env` variables for secure communication and production reliability.  
+- **Documentation & Code Quality:** Enhanced project structure, improved README documentation, and optimized build configuration.
+
+
+### 🧩 Tech Stack
+- **Frontend:** React (Create React App), CSS  
+- **Backend:** Node.js, Express.js, Mongoose  
+- **Database:** MongoDB Atlas  
+- **Deployment:** Render (Backend), Vercel (Frontend)  
+- **Version Control:** Git & GitHub  
+
+📊 *This deployment represents a cloud-hosted, full-stack solution combining React, Node.js, and MongoDB Atlas for real-time crowd analytics and smart monitoring.*
+
+
 ## 🤝 Contributing
 
 Contributions are welcome! Please follow these steps:
@@ -368,7 +405,7 @@ Contributions are welcome! Please follow these steps:
 ## 👥 Authors
 
 - **Nithish Kannan M** – *Initial work* – [GitHub Profile](https://github.com/NithishKannanM)  
-  📧 Email: nithishkannanm1@example.com
+  📧 Email: nithishkannanm11@example.com
 
 - **Namish Gupta** – *Development, Deployment & Integration* – [GitHub Profile](https://github.com/Namish-Gupta)  
   📧 Email: namishdev.gupta@gmail.com
