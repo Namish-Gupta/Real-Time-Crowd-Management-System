@@ -404,7 +404,7 @@ Contributions are welcome! Please follow these steps:
 
 ## 👥 Authors
 
-- **Nithish Kannan M** – *Initial work* – [GitHub Profile](https://github.com/NithishKannanM)  
+- **Nithish Kannan M** – *Initial work & ML Development* – [GitHub Profile](https://github.com/NithishKannanM)  
   📧 Email: nithishkannanm11@example.com
 
 - **Namish Gupta** – *Development, Deployment & Integration* – [GitHub Profile](https://github.com/Namish-Gupta)  
