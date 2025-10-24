@@ -409,7 +409,9 @@ Contributions are welcome! Please follow these steps:
 
 - **Namish Gupta** – *Development, Deployment & Integration* – [GitHub Profile](https://github.com/Namish-Gupta)  
   📧 Email: namishdev.gupta@gmail.com
-
+  
+- **Ankur Yadav** – *Final Work* – [GitHub Profile](https://github.com/ankur-on-github)
+   📧 Email: ankuryadav9021@gmail.com
 
 
 ## 🙏 Acknowledgments
